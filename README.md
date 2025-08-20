@@ -7,7 +7,7 @@ CS130 repository
 | Instructor: | Corin Chepko |
 | Mav Username: | cjbush |
 | GitHub Username: | cameronjbush |
-| Repository | cameronjbush/CS130-cbush |
+| Repository | https://github.com/cameronjbush/CS130-cbush |
 _______________________________________________________________________________________________________________
 # Assignments
 ## Homework #1
