@@ -7,7 +7,7 @@ CS130 repository
 | Instructor: | Corin Chepko |
 | Mav Username: | cjbush |
 | GitHub Username: | cameronjbush |
-| Repository | https://github.com/cameronjbush/CS130-cbush |
+| Repository | cameronjbush/CS130-cbush |
 _______________________________________________________________________________________________________________
 # Assignments
 ## Homework #1
@@ -29,4 +29,8 @@ ________________________________________________________________________________
 | Due Date: | FIXME |
 | Status: | FIXME (In Progress, Finished, Not Started, etc...) |
 | Location: | <provide GitHub link to assignment once you've pushed it> |
+<<<<<<< Updated upstream
 | Notes: | FIXME |
+=======
+| Notes: | FIXME |
+>>>>>>> Stashed changes
