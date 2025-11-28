@@ -1,0 +1,27 @@
+g = 9.81;
+
+angles = linspace(5, 85, 10);
+velocities = linspace(0, 50, 10);
+
+distanceTable = zeros(10,10);
+
+for i = 1:10
+  for j = 1:10
+    v = velocity(j)
+    a = angle(i)
+    distanceTable(i, j) = (v^2 * sind(2*a)) / g;
+  end
+end
+
+disp('10x10 Distance Table (meters):');
+disp(distanceTable);
+
+targetDistance = 30;
+v_min = sqrt((targetDistance .* g) ./ sind(2*angles));
+
+figure;
+plot(angles, v_min, 'LineWidth', 2);
+title('Required velocity to reach 30 meters vs angle');
+xaxis('Angle (degrees)');
+yaxis('Velocity (m/s)');
+grid on;
