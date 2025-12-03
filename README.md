@@ -24,9 +24,12 @@ ________________________________________________________________________________
 | Name | Value |
 | --- | --- |
 | Name: | Cameron Bush |
-| Description: |  |
-| Due Date: | FIXME |
-| Status: | FIXME (In Progress, Finished, Not Started, etc...) |
+| Description: | Makes a 10x10 table of distances for different angles 
+and launch velocities. It will also make a plot of the minimum velocity
+\required to reach 30 meters and allows the user to input an angle and 
+velocity to plot a projectile trajectory. |
+| Due Date: | 12/1/25 |
+| Status: | Finished (In Progress, Finished, Not Started, etc...) |
 | Location: | <provide GitHub link to assignment> |
 | Notes: | In Progress|
 _______________________________________________________________________________________________________________
