@@ -19,6 +19,16 @@ ________________________________________________________________________________
 | Status: | FIXME (In Progress, Finished, Not Started, etc...) |
 | Location: | <provide GitHub link to assignment> |
 | Notes: | In Progress|
+
+## MATLAB HW #1
+| Name | Value |
+| --- | --- |
+| Name: | Cameron Bush |
+| Description: |  |
+| Due Date: | FIXME |
+| Status: | FIXME (In Progress, Finished, Not Started, etc...) |
+| Location: | <provide GitHub link to assignment> |
+| Notes: | In Progress|
 _______________________________________________________________________________________________________________
 # Labs
 ## Lab #1
