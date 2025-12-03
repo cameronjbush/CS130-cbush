@@ -32,7 +32,7 @@ meters and allows the user to input an angle and
 velocity to plot a projectile trajectory. |
 | Due Date: | 12/1/25 |
 | Status: | Finished (In Progress, Finished, Not Started, etc...) |
-| Location: | <provide GitHub link to assignment> |
+| Location: | https://github.com/cameronjbush/CS130-cbush/blob/2992bb1623c2def0a42a5367ecf7ac78204cfab7/MATLAB%20code |
 | Notes: | In Progress|
 _______________________________________________________________________________________________________________
 # Labs
