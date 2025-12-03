@@ -1,7 +1,15 @@
+%{
+Cameron Bush
+Date:12/3/25
+Program description:
+  Makes a 10x10 table of distances for different angles and launch velocities. 
+  It will also make a plot of the minimum velocity required to reach 30 meters and allows the user to input an angle and velocity to plot a projectile trajectory.
+%}
+
 g = 9.81;
 
-angles = linspace(5, 85, 10);
-velocities = linspace(0, 50, 10);
+angle = linspace(5, 85, 10);
+velocity = linspace(0, 50, 10);
 
 distanceTable = zeros(10,10);
 
@@ -22,6 +30,24 @@ v_min = sqrt((targetDistance .* g) ./ sind(2*angles));
 figure;
 plot(angles, v_min, 'LineWidth', 2);
 title('Required velocity to reach 30 meters vs angle');
-xaxis('Angle (degrees)');
-yaxis('Velocity (m/s)');
+xlabel('Angle (degrees)');
+ylabel('Velocity (m/s)');
+grid on;
+
+
+fprintf('\n -- Trajectory Plotter --\n');
+userAngle = input('Enter launch angle: ');
+userVelo = input('Enter launch velocity (m/s): ');
+
+t_flight = (2 * userVelo * sind(userAngle)) / g;
+t = linspace(0, t_flight, 200);
+
+x = userVelo * cosd(userAngle) .* t;
+y = userVelo * sind(userAngle) .* t - 0.5 * g .* t.^2;
+
+figure;
+plot(x, y, 'LineWidth', 2);
+title('Trajectory of Projectile');
+xlabel('Horizontal distance (m)');
+ylabel('Vertical distance (m)');
 grid on;
