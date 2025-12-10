@@ -43,7 +43,21 @@ ________________________________________________________________________________
 | Description: | calculate launch distance with inputs of launch angle, muzzle velo, and distance to target |
 | Due Date: | 9/23 |
 | Status: | Finished |
-| Location: | <provide GitHub link to assignment once you've pushed it> |
+| Location: | https://github.com/cameronjbush/CS130-cbush/blob/main/Labs/project1/project1.cpp|
+<<<<<<< Updated upstream
+| Notes: | FIXME |
+=======
+| Notes: | FIXME |
+>>>>>>> Stashed changes
+
+## Lab #1
+| Name | Value |
+| --- | --- |
+| Name: | Cameron Bush |
+| Description: | calculate if the target is within range after an input of launch angle, muzzle velocity and distance to target |
+| Due Date: | 12/5 |
+| Status: | Finished |
+| Location: | https://github.com/cameronjbush/CS130-cbush/blob/main/Labs/Project2.cpp|
 <<<<<<< Updated upstream
 | Notes: | FIXME |
 =======
